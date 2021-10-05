@@ -1,0 +1,20 @@
+{
+  "name": "tinder-backend",
+  "version": "1.0.0",
+  "description": "This is the simple tinder clone with node js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Masood Khan",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "express": "^4.17.1",
+    "react-tinder-card": "^1.4.2"
+  }
+}

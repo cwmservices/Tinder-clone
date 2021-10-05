@@ -1,0 +1,23 @@
+.button-group{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.first{
+    color: yellow;
+}
+.second{
+    color: red;
+}
+.third{
+    color: blue;
+}
+.fourth{
+    color: green;
+}
+.fifth{
+    color: orange;
+}
